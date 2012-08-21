@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 
-open IN, "comparable_groups1.txt" or die;
+open IN, "comparable_groups2.txt" or die;
 while (<IN>) {
     chomp;
     my @tokens = split /\t/, $_;
